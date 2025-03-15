@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eᒪ CᕼᗩᖇᖇO ᗪE OᖇO</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Eᒪ CᕼᗩᖇᖇO ᗪE OᖇO</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">IᑎIᑕIO</a></li>
+                <li><a href="hombre.html">HOᗰᗷᖇE</a></li>
+                <li><a href="mujer.html">MᑌᒍEᖇ</a></li>
+                <li><a href="niño.html">NIÑO</a></li>
+                 <li><a href="niña.html">NIÑᗩ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="productos">
+        <h2>PᖇOᗪᑌᑕTOS</h2>
+        <div class="productos-container">
+            <div class="producto">
+                <img src="camisa.jpg" alt="Producto 1">
+                <h3>CᗩᗰISᗩS</h3>
+                <button>VEᖇ ᗰᗩS</button>
+            </div>
+            <div class="producto">
+                <img src="pantalon.jpg" alt="Producto 2">
+                <h3>PᗩᑎTᗩᒪOᑎES</h3>
+                <button>VEᖇ ᗰᗩS</button>
+            </div>
+            <div class="producto">
+                <img src="camarra.jpg" alt="Producto 3">
+                <h3>CᕼᗩᗰᗩᖇᖇᗩS</h3>
+                <button>VEᖇ ᗰᗩS</button>
+            </div>
+            <div class="producto">
+                <img src="botin.jpg" alt="Producto 3">
+                <h3>CᗩᒪZᗩᗪO</h3>
+                <button>VEᖇ ᗰᗩS</button>
+            </div>
+            <div class="producto">
+                <img src="gorra.jpg" alt="Producto 3">
+                <h3>GOᖇᖇᗩS</h3>
+                <button>VEᖇ ᗰᗩS</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Eᒪ CᕼᗩᖇᖇO ᗪE OᖇO. Todos los derechos reservados.</p>
+    </footer>
+</body>
+<style type="text/css">/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    height: 200px;
+    width: 130px;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f5ebe0;
+    color: #4b3f2f;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    background-color: #8d6748;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 26px;
+    font-family: 'Georgia', serif;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #d4a373;
+}
+#productos {
+    flex-grow: 1;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#productos h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #8d6748;
+}
+
+.productos-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.producto {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    width: 280px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    border: 2px solid #a67b5b;
+}
+
+.producto:hover {
+    transform: scale(1.05);
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.producto h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #8d6748;
+}
+
+.producto p {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #a67b5b;
+}
+
+.producto button {
+    background-color: #6d8a74;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.producto button:hover {
+    background-color: #5a7660;
+    transform: scale(1.1);
+}
+footer {
+    background-color: #8d6748;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: auto;
+    font-size: 14px;
+}</style>
+</html>
